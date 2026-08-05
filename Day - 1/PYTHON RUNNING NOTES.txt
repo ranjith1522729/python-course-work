@@ -1,0 +1,13 @@
+PYTHON RUNNING NOTES
+PYTHON FEATURES 
+
+1.PREPROSSING = Cleaning and preparing data before using it. 
+2.OBIECT ORIENTED PROGRAMMING =that uses classes and objects to make code modular, reusable, secure, and easy to maintain.
+
+KEY POINTS FOR OOP
+1.Class = Blueprint for creating objects. 
+2.Attributes = Class variables (data members) that store an object's properties. 
+3.Encapsulation = Wrapping data and methods together and restricting direct access to data (data hiding/security). 
+4.Polymorphism = One interface, different implementations (same method behaves differently for different objects). 
+5.Inheritance = A child class inherits properties and methods from a parent class. 
+6.Abstraction = Hiding implementation details and showing only the essential features.
