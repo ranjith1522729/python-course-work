@@ -1,0 +1,121 @@
+DATA TYPES
+
+The 12 main Python data types are:
+int
+float
+complex
+str
+list
+tuple
+Dictionary
+set
+frozen set
+bool
+None Type
+
+1. Numeric Types
+
+1. Integer (int)
+An Integer (int) stores whole numbers without a decimal point. It can be positive, negative, or zero.
+Features
+Stores whole numbers
+No decimal point
+Can be positive, negative, or zero
+Immutable
+
+2.Float (float)
+A Float (float) stores decimal (floating-point) numbers.
+Features
+Stores numbers with decimal points
+Can be positive or negative
+Immutable
+
+3.Complex (complex)
+A Complex (complex) stores numbers that have a real part and an imaginary part. The imaginary part ends with j.
+Features
+Contains a real and an imaginary part
+Imaginary part is represented using j
+Immutable
+
+2.Sequence Types
+
+Python has three sequence types:
+1.string
+2.List
+3.Tuple
+
+1.string
+A string is a sequence of characters (letters, numbers, symbols, or spaces) enclosed in single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """).
+
+2. List (list)
+A list is an ordered collection of items that can be changed (mutable). It also allows duplicate values.
+
+Features
+Ordered
+Mutable (can add, remove, or modify items)
+Allows duplicate values
+Can store different data types
+
+3.Tuple (tuple)
+A tuple is an ordered collection of items that cannot be changed (immutable) after creation. It also allows duplicate values.
+
+Features
+Ordered
+Immutable (cannot be modified)
+Allows duplicate values
+Can store different data types
+
+3.mapping type
+
+1. Dictionary (dict) is a mutable, ordered collection that stores data in the form of key–value pairs. Each key must be unique, while values can be duplicated.
+
+Features
+Stores data as key–value pairs
+Ordered (Python 3.7+)
+Mutable (can be changed)
+Keys are unique
+Values can be duplicated
+
+2.set (set) 
+A Set (set) is an unordered, mutable collection of unique elements. It automatically removes duplicate values.
+
+Features
+Unordered (items do not have a fixed position)
+Mutable (can add or remove elements)
+Does not allow duplicate values
+Can store different data types
+Uses curly braces {}
+
+4.Boolean Type
+
+Boolean (bool) is a data type that represents logical values. It has only two possible values:
+True
+False
+It is mainly used in decision-making and conditional statements.
+
+Features
+Has only two values: True and False
+Used to represent yes/no, on/off, true/false conditions
+Commonly used in if, else, while, and comparison operations
+True is represented as 1 and False as 0 internally
+
+5.Frozen Set
+A Frozen Set (frozenset) is an immutable version of a set. Like a set, it stores unique elements, but once it is created, its elements cannot be added, removed, or changed.
+
+Features
+Unordered (items have no fixed order)
+Immutable (cannot be modified after creation)
+Does not allow duplicate values
+Stores only unique elements
+Can contain different data types
+
+6.None Type
+
+Definition
+NoneType is a data type that represents the absence of a value or no value. It has only one value, which is None.
+
+Features
+Represents no value or empty value
+Has only one value: None
+Immutable (cannot be changed)
+Commonly used as a default value in functions or to indicate that a variable has no value yet
