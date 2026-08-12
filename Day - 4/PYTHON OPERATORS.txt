@@ -1,0 +1,238 @@
+PYTHON OPERATORS
+Operators are symbols used to perform different operations on values and variables.
+
+There are 7 types of Python Operators:
+1. Arithmetic Operators
+2. Comparison Operators
+3. Assignment Operators
+4. Logical Operators
+5. Membership Operators
+6. Identity Operators
+7. Bitwise Operators
+
+
+1. ARITHMETIC OPERATORS
+Arithmetic operators are used to perform basic mathematical calculations.
+
++   Addition
+    Example: 5 + 3 = 8
+    Adds two numbers.
+
+-   Subtraction
+    Example: 10 - 4 = 6
+    Subtracts one number from another.
+
+*   Multiplication
+    Example: 6 * 2 = 12
+    Multiplies two numbers.
+
+/   Division
+    Example: 9 / 2 = 4.5
+    Divides two numbers and gives a decimal value.
+
+//  Floor Division
+    Example: 9 // 2 = 4
+    Divides two numbers and returns only the integer part.
+
+%   Modulus
+    Example: 10 % 3 = 1
+    Returns the remainder after division.
+
+**  Exponentiation
+    Example: 2 ** 3 = 8
+    Raises a number to a power.
+
+
+2. COMPARISON OPERATORS
+Comparison operators are used to compare two values.
+
+The result is always True or False.
+
+==  Equal to
+    Example: 5 == 5
+    Result: True
+    Checks whether two values are equal.
+
+!=  Not equal to
+    Example: 5 != 3
+    Result: True
+    Checks whether two values are different.
+
+>   Greater than
+    Example: 7 > 3
+    Result: True
+    Checks whether the first value is greater.
+
+<   Less than
+    Example: 3 < 7
+    Result: True
+    Checks whether the first value is smaller.
+
+>=  Greater than or equal to
+    Example: 5 >= 5
+    Result: True
+    Checks whether the first value is greater than or equal to the second.
+
+<=  Less than or equal to
+    Example: 3 <= 5
+    Result: True
+    Checks whether the first value is smaller than or equal to the second.
+
+
+3. ASSIGNMENT OPERATORS
+Assignment operators are used to assign values to variables.
+They can also perform an operation and store the result back in the variable.
+
+=   Assign
+    Example: a = 10
+
++=  Add and assign
+    Example: a += 5
+
+-=  Subtract and assign
+    Example: a -= 5
+
+*=  Multiply and assign
+    Example: a *= 5
+
+/=  Divide and assign
+    Example: a /= 5
+
+//= Floor divide and assign
+    Example: a //= 5
+
+%=  Modulus and assign
+    Example: a %= 5
+
+**= Exponent and assign
+    Example: a **= 2
+
+&=  Bitwise AND and assign
+    Example: a &= 3
+
+|=  Bitwise OR and assign
+    Example: a |= 3
+
+^=  Bitwise XOR and assign
+    Example: a ^= 3
+
+>>= Right shift and assign
+    Example: a >>= 2
+
+<<= Left shift and assign
+    Example: a <<= 2
+
+
+4. LOGICAL OPERATORS
+Logical operators are used to combine two or more conditions.
+They return either True or False.
+
+There are 3 logical operators:
+
+1. and
+2. or
+3. not
+
+and
+    Returns True only when both conditions are True.
+
+    Example:
+    5 > 2 and 10 > 5
+    Result: True
+
+or
+    Returns True when at least one condition is True.
+
+    Example:
+    5 > 10 or 10 > 5
+    Result: True
+
+not
+    Reverses the result.
+
+    Example:
+    not(5 > 2)
+    Result: False
+
+
+5. MEMBERSHIP OPERATORS
+Membership operators are used to check whether a value exists
+inside a sequence such as a list, string, or tuple.
+
+There are 2 membership operators:
+
+1. in
+2. not in
+
+in
+    Checks whether a value exists in a sequence.
+
+    Example:
+    "a" in "Python"
+    Result: False
+
+not in
+    Checks whether a value does not exist in a sequence.
+
+    Example:
+    50 not in [10, 20, 30]
+    Result: True
+
+
+6. IDENTITY OPERATORS
+Identity operators check whether two variables refer to the
+same object in memory.
+
+There are 2 identity operators:
+
+1. is
+2. is not
+
+is
+    Checks whether two variables refer to the same object.
+
+    Example:
+    a is b
+    Result: True if both refer to the same object.
+
+is not
+    Checks whether two variables refer to different objects.
+
+    Example:
+    a is not b
+    Result: True if they refer to different objects.
+
+
+7. BITWISE OPERATORS
+Bitwise operators work on the binary (bits) representation of integers.
+
+They perform operations bit by bit.
+
+&   Bitwise AND
+    Both bits must be 1.
+
+|   Bitwise OR
+    At least one bit must be 1.
+
+^   Bitwise XOR
+    Bits must be different.
+
+~   Bitwise NOT
+    Reverses/inverts the bits.
+
+<<  Left Shift
+    Shifts the bits to the left.
+
+>>  Right Shift
+    Shifts the bits to the right.
+
+
+QUICK SUMMARY
+
+Arithmetic     → Mathematical calculations
+Comparison     → Compare two values
+Assignment     → Assign/store values
+Logical        → Combine conditions
+Membership     → Check whether a value exists
+Identity       → Check whether objects are the same
+Bitwise        → Work with binary bits
