@@ -38,38 +38,38 @@ Rules for identifiers:
 
 python keywords
 
-False	Represents the Boolean false value.
-True  	Represents the Boolean true value.
-None 	Represents the absence of a value.
-and  	Returns True if both conditions are true.
-or	        Returns True if at least one condition is true.
-not   	Reverses the Boolean value.
-if	        Executes code when a condition is true.
-elif   	Checks another condition if the previous one is false.
-else 	Executes code when all previous conditions are false.
-for 	Repeats a block of code over a sequence.
-while	Repeats a block of code while a condition is true.
-break	Exits the nearest loop immediately.
-continue	Skips the current iteration and continues the loop.
-pass	Does nothing; acts as a placeholder.
-def	        Defines a function.
-return	Returns a value from a function.
-lambda	Creates an anonymous (nameless) function.
-class	Defines a class.
-try	        Starts exception handling.
-except	Handles an exception.
-finally	Executes code whether an exception occurs or not.
-raise	Raises an exception manually.
-assert	Checks a condition and raises an error if false.
-import	Imports a module.
-from	Imports specific objects from a module.
-as   	Gives an alias to a module or object.
-with	Simplifies resource management (e.g., files).
-in  	Checks membership or is used in loops.
-is	        Checks whether two objects are the same object.
-global	Declares a global variable inside a function.
-nonlocal	Refers to a variable in the enclosing function.
-del 	Deletes an object or variable.
-yield	Returns a value from a generator and pauses execution.
-async	Defines an asynchronous function or block.
-await	Waits for an asynchronous operation to finish.
+False	         Represents the Boolean false value.
+True  	        Represents the Boolean true value.
+None 	         Represents the absence of a value.
+and  	         Returns True if both conditions are true.
+or	            Returns True if at least one condition is true.
+not           	Reverses the Boolean value.
+if	            Executes code when a condition is true.
+elif          	Checks another condition if the previous one is false.
+else          	Executes code when all previous conditions are false.
+for           	Repeats a block of code over a sequence.
+while         	Repeats a block of code while a condition is true.
+break	         Exits the nearest loop immediately.
+continue      	Skips the current iteration and continues the loop.
+pass          	Does nothing; acts as a placeholder.
+def	           Defines a function.
+return        	Returns a value from a function.
+lambda	        Creates an anonymous (nameless) function.
+class	         Defines a class.
+try	           Starts exception handling.
+except	        Handles an exception.
+finally       	Executes code whether an exception occurs or not.
+raise         	Raises an exception manually.
+assert	        Checks a condition and raises an error if false.
+import	        Imports a module.
+from          	Imports specific objects from a module.
+as            	Gives an alias to a module or object.
+with	          Simplifies resource management (e.g., files).
+in            	Checks membership or is used in loops.
+is	            Checks whether two objects are the same object.
+global        	Declares a global variable inside a function.
+nonlocal	      Refers to a variable in the enclosing function.
+del           	Deletes an object or variable.
+yield         	Returns a value from a generator and pauses execution.
+async         	Defines an asynchronous function or block.
+await	         Waits for an asynchronous operation to finish.
