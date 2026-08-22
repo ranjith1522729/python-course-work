@@ -1,0 +1,28 @@
+conditional statement
+---------------------
+1.simpleif
+2.if else
+3.elif ladder
+4.nested if
+------------
+if cond:
+     #statement
+----------------
+if cond:
+     #statement t
+else:
+     #statement  f
+-----------------
+if cond1:
+    #statement
+elif cond2:
+    #statement
+else:
+--------------
+if cond:
+  if cond:
+  else:
+  elif:
+--------------
+
+
