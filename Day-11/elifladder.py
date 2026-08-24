@@ -13,9 +13,7 @@ elif budget > 500:
 else:
     print("Stay Home")
 '''
-
 hr = int(input("enter the time: "))
-
 if 5<= hr <=11:
     print("Good Morning")
 elif 12 <= hr <= 16:
