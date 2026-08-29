@@ -1,0 +1,29 @@
+FUNCTION
+
+Definition :- a block of code which is reusable and used to perform a specific task 
+
+
+1. Code reusability: writing a block of code once and calling it multiple times.
+
+2. Modularity: breaking a large program into smaller, manageable pieces.
+
+
+3. Abstraction: hiding complex logic behind a simple function name/interface.
+
+
+4. Input validation: checking and processing user input consistently.
+
+
+5. Data transformation: converting data from one format to another (e.g., JSON to CSV).
+
+
+6. Event handling: responding to user actions like clicks or key presses.
+
+
+7. Recursion: solving problems by having a function call itself (e.g., factorial, tree traversal).
+
+
+8. API calls: functions that fetch or send data to external services.
+
+
+9. Testing/debugging: isolating logic into functions makes it easier to test individual pieces.
